@@ -2,6 +2,7 @@ class InfoArea extends AbstractArea {
   InfoArea(int posX, int posY, int yoko, int tate) {
     super(posX, posY, yoko, tate);
   }
+  
   void draw() {
     fill(#FFFFFF);
     rect(posX*SQUARESIZE, posY*SQUARESIZE, yoko*SQUARESIZE, tate*SQUARESIZE);
@@ -13,4 +14,3 @@ class InfoArea extends AbstractArea {
       text("Right turn ->", (posX+yoko-1.7)*SQUARESIZE, (posY+0.5)*SQUARESIZE);
     }
   }
-}
