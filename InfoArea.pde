@@ -14,3 +14,4 @@ class InfoArea extends AbstractArea {
     }
   }
 }
+  
